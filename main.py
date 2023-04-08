@@ -5,7 +5,7 @@ import time
 from playsound import playsound
 from gtts import gTTS
 
-openai.api_key = "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"
+openai.api_key = "ENTER OPENAI API KEY HERE"
 engine=pyttsx3.init()
    
 def transcribe_audio_to_text(filename):
